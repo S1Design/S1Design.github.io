@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Secular+One&display=swap');
+
+
+@keyframes test_animation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+a, a:link, a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover
+{color:rgb(150, 150, 150)}
+
+body, p { margin : 0; padding: 0; 
+    animation-name : test_animation;
+    animation-duration:2s;
+    animation-direction: alternate;}
+#box1 {
+    display: block;
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+}
+#box1 > video {
+    width: 100%;
+    height: 100%
+}
+
+
+#box2 {
+    position: fixed;
+    top: 480px;
+    left: 958px;
+    transform: translate(-50%, -50%);
+    font-family:  'Secular One', sans-serif;
+    font-size: 80px;
+    color:white
+
+}
+
+#box3 {
+    position: fixed;
+    top: 560px;
+    left: 956px;
+    transform: translate(-50%, -50%);
+    font-family:  'Secular One', sans-serif;
+    font-size: 34px;
+    color:white
+
+}
